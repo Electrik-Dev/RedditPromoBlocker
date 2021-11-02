@@ -1,12 +1,13 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "RedditPromoblocker",
     "description": "Block reddit promoted posts from showing",
     "version": "0.1",
     "author": "Electrik",
 
-    "browser_action": {
-        "default_title": "reddit promotion blocker"
+    "action": {
+        "default_title": "reddit promotion blocker",
+        "default_icon": "icon.png"
     },
 
     "permissions": [
